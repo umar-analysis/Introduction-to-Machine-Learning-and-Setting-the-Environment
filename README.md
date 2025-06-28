@@ -48,3 +48,33 @@ Python is the most popular language for ML due to its readability and ecosystem 
 ### 2. Create a New Environment
 ```bash
 conda create --name umar python=3.9
+### 3. Activate the Environment
+
+```bash
+conda activate umar
+### 4. Install Required Libraries
+
+```bash
+conda install numpy pandas matplotlib scikit-learn jupyter
+### 5. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+This will open a browser window.
+
+Click **New → Python 3** to open a new notebook.
+
+---
+
+## ✅ Results
+
+- ✅ A dedicated conda environment was successfully created.
+- ✅ All required ML libraries (**NumPy**, **Pandas**, **Matplotlib**, **Scikit-learn**, **Jupyter**) were installed.
+- ✅ Jupyter Notebook was launched and accessed through the Anaconda environment.
+
+---
+
+## 🧾 Conclusion
+
+This lab provided a hands-on introduction to **Machine Learning** by setting up a clean and functional development environment. By using **Anaconda** for environment management and **Jupyter Notebook** for interactive development, we established a reliable workflow for future ML experiments and projects.
+
